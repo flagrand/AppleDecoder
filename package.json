@@ -1,0 +1,32 @@
+{
+  "name": "applebusinesschat-crypto-js",
+  "version": "1.0.0",
+  "description": "This package decrypts authentication tokens of Apple Business Chat",
+  "main": "AppleCrypto.js",
+  "scripts": {
+    "test": "node *.spec.js",
+    "lint": "eslint Apple* || exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.pitneycloud.com:engageoneconverse/applebusinesschat-crypto-js.git"
+  },
+  "keywords": [
+    "apple",
+    "applebusinesschat",
+    "crypto",
+    "secp384r1",
+    "p384"
+  ],
+  "author": "Kamil Fijak <kamil.fijak@pb.com>",
+  "license": "ISC",
+  "dependencies": {
+    "elliptic": "^6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^2.3.1"
+  }
+}
