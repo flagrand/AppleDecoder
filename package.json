@@ -21,7 +21,7 @@
   "author": "Kamil Fijak <kamil.fijak@pb.com>",
   "license": "ISC",
   "dependencies": {
-    "elliptic": "^6.4.1"
+    "elliptic": "^6.5.3"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
